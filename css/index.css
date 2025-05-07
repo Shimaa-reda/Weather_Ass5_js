@@ -1,0 +1,225 @@
+body{
+
+  color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+.navbar{
+   
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  
+  color: black !important;
+  padding: 50px 0;
+
+}
+.navbar ul li a{
+    padding: 5px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+
+.navbar ul li a:hover{
+  
+  border: 2px solid #009ad8;
+  color: #009ad8 !important;
+ 
+}
+.navbar .active{
+  border: 2px solid #009ad8;
+    border-radius: 30px;
+  color: #009ad8 !important;
+}
+.navbar .title{
+  margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.navbar .description{
+ 
+    font-size: 10px;
+    display: block;
+    color: #bfc1c8;
+}
+.navbar .logo{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.navbar .braning-text{
+  display: inline-block;
+  vertical-align: middle;
+}
+.header{
+  background-image: url("../images/banner.png");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+  min-height: 350px;
+}
+.header .location{
+  position: relative;
+  margin-bottom: 70px;
+}
+.location input[type="text"] {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+form input[type="submit"], form input[type="button"], form button, form input[type="reset"] {
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+.header form input[type="button"]{
+  
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 0 40px;
+}
+/* .table .row {
+
+  border-radius: 10px;
+  margin-top: -170px;
+  margin-bottom: 50px;
+
+  
+} */
+
+.table .table-row {
+  margin: 0;
+ 
+  background-color: #323544;
+  border-radius: 10px; margin-top: -150px;margin-bottom: 50px;
+
+}
+
+.table .col-lg-4 {
+  background-color: #323544; /* or inherit */
+}
+
+.table .forecast .today{
+  color: #BFC1C8;
+  /* width: 33.33%; */
+  background-color: #323544;
+}
+.table .forecast .tomorrow,.afterTomorrow{
+  color: #BFC1C8;
+  
+}
+.table .tomorrow .number,.table  .afterTomorrow .number{
+  font-size: 24px;
+  /* margin-right: 30px; */
+    color: white;
+    font-weight: 700;
+   
+}
+.table .today .number{
+  font-size: 90px;
+    margin-right: 30px;
+    color: white;
+    font-weight: 700;
+}
+.table .custom{
+  color: #009ad8;
+    margin: 20px 0;
+}
+.table .forecast span{
+  margin-right: 20px;
+}
+.table .tomorrow{
+  background-color: #262936;
+  /* width: 33.33%; */
+}
+.table .header-today{
+ 
+ 
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+/* .table .forecast .today .header-today .day{
+ float: left;
+}
+.table .forecast .today .header-today .date{
+  float: right;
+ }
+ .table .forecast .today .header-today .clear{
+  clear: both;
+ } */
+/* .table .forecast .content-today{
+  text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.table .forecast .content-today .location{
+  font-size: 1.2857142857em;
+  font-weight: 400;
+} */
+/* .table .today .number, .table .today .icon{
+  display: inline-block;
+  vertical-align: middle;
+} */
+/* .table .tomorrow .icon,.table .afterTomorrow .icon{
+  margin-bottom: 20px;
+} */
+.footer{
+  background: #262936;
+  padding: 50px 0;
+}
+.footer .location{
+  position: relative;
+}
+.footer form input[type="button"]{
+  position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+.footer .social a{
+  width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+
+    transition: all 0.3s ;
+    font-size: 1.4285714286em;
+    
+}
+.footer .social a:hover {
+  background: #009ad8;
+  color: white;
+}
+.footer p{
+  color: #BFC1C8;
+  font-size: 14px;
+  
+}
+.date span{
+  display: inline;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
